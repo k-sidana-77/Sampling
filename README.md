@@ -11,11 +11,11 @@ This project explores the impact of different sampling techniques on machine lea
 - **Bootstrap Sampling**
 
 ## Machine Learning Models
--M1: LogisticRegression
--M2: RandomForestClassifier
--M3: SVC
--M4: KNeighborsClassifier
--M5: DecisionTreeClassifier
+- M1: LogisticRegression
+- M2: RandomForestClassifier
+- M3: SVC
+- M4: KNeighborsClassifier
+- M5: DecisionTreeClassifier
 ## Performance Results
 
 ### Accuracy Matrix
