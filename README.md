@@ -60,5 +60,3 @@ MIT License
 ## Contributors
 [Kartik Sidana]
 
-
-The README provides a comprehensive overview of your project, including sampling techniques, models, results, and usage instructions. Would you like me to modify anything? 
