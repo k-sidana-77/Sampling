@@ -16,10 +16,6 @@ This project explores the impact of different sampling techniques on machine lea
 - M3: SVC
 - M4: KNeighborsClassifier
 - M5: DecisionTreeClassifier
-## Performance Results
-
-### Accuracy Matrix
-# Model Sampling Techniques Comparison
 
 ## Performance Matrix
 
