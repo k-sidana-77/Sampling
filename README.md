@@ -1,9 +1,3 @@
-
-
-
-
-
-
 # Credit Card Dataset Sampling Techniques Comparison
 
 ## Project Overview
@@ -48,11 +42,6 @@ This project explores the impact of different sampling techniques on machine lea
 ## Installation
 ```bash
 pip install -r requirements.txt
-```
-
-## Usage
-```python
-python credit_card_sampling.py
 ```
 
 ## License
