@@ -11,12 +11,11 @@ This project explores the impact of different sampling techniques on machine lea
 - **Bootstrap Sampling**
 
 ## Machine Learning Models
-1. RandomForestClassifier
-2. LogisticRegression
-3. Support Vector Classifier (SVC)
-4. DecisionTreeClassifier
-5. Gaussian Naive Bayes
-
+'M1': LogisticRegression
+'M2': RandomForestClassifier
+'M3': SVC
+'M4': KNeighborsClassifier
+'M5': DecisionTreeClassifier
 ## Performance Results
 
 ### Accuracy Matrix
