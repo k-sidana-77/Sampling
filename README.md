@@ -20,24 +20,34 @@ This project explores the impact of different sampling techniques on machine lea
 ## Performance Results
 
 ### Accuracy Matrix
-| Models | Bootstrap | Cross-Validation | Simple Random | Stratified | Systematic |
-|--------|-----------|------------------|--------------|------------|------------|
-| RandomForest | 0.968 | 1.000 | 1.000 | 1.000 | 0.903 |
-| LogisticRegression | 0.839 | 0.898 | 0.935 | 0.903 | 0.871 |
-| SVC | 0.935 | 0.967 | 0.935 | 1.000 | 0.839 |
-| DecisionTree | 1.000 | 1.000 | 0.968 | 1.000 | 0.935 |
-| GaussianNB | 0.774 | 0.824 | 0.774 | 0.710 | 0.806 |
+# Model Sampling Techniques Comparison
 
-## Key Findings
-- DecisionTree shows most consistent performance
-- Stratified and Cross-Validation sampling provide robust results
-- Model performance varies significantly across sampling techniques
+## Performance Matrix
+
+| Model | Simple Random | Systematic | Stratified | Cross-Validation | Bootstrap | Best Sampling Technique | Best Sampling and Model |
+|-------|---------------|------------|------------|-----------------|-----------|------------------------|------------------------|
+| M1 | 0.826 | 0.783 | 0.913 | 0.899 | 0.783 | Stratified | Stratified (M1) |
+| M2 | 0.978 | 0.978 | 0.957 | 0.995 | 0.935 | Cross-Validation | Cross-Validation (M2) |
+| M3 | 0.630 | 0.696 | 0.609 | 0.694 | 0.478 | Systematic | Systematic (M3) |
+| M4 | 0.717 | 0.674 | 0.609 | 0.831 | 0.609 | Cross-Validation | Cross-Validation (M4) |
+| M5 | 0.804 | 0.826 | 0.891 | 0.973 | 0.913 | Cross-Validation | Cross-Validation (M5) |
+
+## Key Observations
+- M2 shows highest performance across most sampling techniques
+- Cross-Validation emerges as the best sampling technique for multiple models
+- Performance varies significantly across different sampling methods
+
+## Methodology
+- 5 different sampling techniques applied
+- Performance measured using accuracy metric
+- Multiple machine learning models evaluated
 
 ## Requirements
-- Python 3.7+
+- Python
 - scikit-learn
 - pandas
 - numpy
+
 
 ## Installation
 ```bash
